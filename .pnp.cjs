@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@next/font", "npm:13.1.6"],\
+          ["classnames", "npm:2.3.2"],\
           ["eslint", "npm:8.33.0"],\
           ["eslint-config-next", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:13.1.6"],\
           ["next", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:13.1.6"],\
@@ -651,6 +652,15 @@ const RAW_RUNTIME_STATE =
           ["chalk", "npm:4.1.2"],\
           ["ansi-styles", "npm:4.3.0"],\
           ["supports-color", "npm:7.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["classnames", [\
+      ["npm:2.3.2", {\
+        "packageLocation": "../../../C:/Users/mutopapa/AppData/Local/Yarn/Berry/cache/classnames-npm-2.3.2-d2fdae468d-9.zip/node_modules/classnames/",\
+        "packageDependencies": [\
+          ["classnames", "npm:2.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2586,6 +2596,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["portfolio", "workspace:."],\
           ["@next/font", "npm:13.1.6"],\
+          ["classnames", "npm:2.3.2"],\
           ["eslint", "npm:8.33.0"],\
           ["eslint-config-next", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:13.1.6"],\
           ["next", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:13.1.6"],\
