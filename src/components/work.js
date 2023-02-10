@@ -8,7 +8,18 @@ export default function About({ isActive, handleActive }) {
 
   return (
     <div className={classNames(styles.work, { [styles.isActive]: isActive })}>
-        <div className={styles.close} onClick={close}>
+        <div className={styles.close} onClick={close}></div>
+
+        <div className={styles.contents}>
+          <div className={styles.content}>
+
+          </div>
+          <div className={styles.content}>
+            
+          </div>
+          <div className={styles.content}>
+            
+          </div>
         </div>
     </div>
   );
