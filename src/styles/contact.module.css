@@ -1,5 +1,5 @@
 .contact {
-    width: 800px;
+    width: 900px;
     height: 600px;
     /* border: 1px solid black; */
     position: absolute;
@@ -52,4 +52,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .email {
+    font-size: 1.6rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
