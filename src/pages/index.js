@@ -4,7 +4,7 @@ import styles from "@/styles/index.module.css";
 import Link from "next/link";
 import About from "@/components/about";
 import Work from "@/components/work";
-import Contact from "@/components/contact";
+import Skill from "@/components/skill";
 
 import profile from "@/../public/profile.jpg";
 import { useState } from "react";
@@ -58,6 +58,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className={styles.profileName}>Muto Sota</p>
+                <p className={styles.email}>email:hasu_m.s@icloud.com</p>
               </div>
             </div>
 
@@ -75,7 +76,7 @@ export default function Home() {
                 </li>
                 <li className={styles.item}>
                   <Link href="#" className={styles.link} onClick={handleContactActive}>
-                    Contact
+                    Skill
                   </Link>
                 </li>
               </ul>
@@ -84,7 +85,10 @@ export default function Home() {
         </div>
         <About isActive={aboutIsActive} handleActive={handleAboutActive} />
         <Work isActive={workIsActive} handleActive={handleWorkActive} />
-        <Contact isActive={contactIsActive} handleActive={handleContactActive} />
+        
+
+
+        <Skill isActive={contactIsActive} handleActive={handleContactActive} />
       </main>
     </>
   );

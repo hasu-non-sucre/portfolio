@@ -1,4 +1,4 @@
-import styles from "@/styles/contact.module.css";
+import styles from "@/styles/skill.module.css";
 import classNames from "classnames";
 
 export default function About({ isActive, handleActive }) {
@@ -7,7 +7,7 @@ export default function About({ isActive, handleActive }) {
     }
 
   return (
-    <div className={classNames(styles.contact, { [styles.isActive]: isActive })}>
+    <div className={classNames(styles.skill, { [styles.isActive]: isActive })}>
         <div className={styles.close} onClick={close}></div>
         <div className={styles.email}>
           ご連絡はこちらまで<br /><br />
