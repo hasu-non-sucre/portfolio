@@ -1,4 +1,4 @@
-import styles from "@/styles/work1.module.css";
+import styles from "@/styles/work03.module.css";
 import classNames from "classnames";
 import Image from "next/image";
 
@@ -12,8 +12,9 @@ export default function About({ isActive, handleActive }) {
   };
 
   return (
-    <div className={classNames(styles.work1, { [styles.isActive]: isActive })}>
+    <div className={classNames(styles.work03, { [styles.isActive]: isActive })}>
       <div className={styles.close} onClick={close}></div>
+      <p className={styles.repo}>github: <a href="https://github.com/FunLocks/team2008" target="_blank">https://github.com/FunLocks/team2008</a></p>
 
       <div className={styles.contents}>
         <div className={styles.img}>

@@ -8,7 +8,10 @@ import Skill from "@/components/skill";
 
 import profile from "@/../public/profile.jpg";
 import { useState } from "react";
-import classNames from "classnames";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,7 +39,7 @@ export default function Home() {
           <video
             width="320"
             height="240"
-            autoplay=""
+            autoPlay
             loop
             muted
             className={styles.bgVideo}
@@ -58,7 +61,8 @@ export default function Home() {
                   </div>
                 </div>
                 <p className={styles.profileName}>Muto Sota</p>
-                <p className={styles.email}>email:hasu_m.s@icloud.com</p>
+                <p className={styles.email}><FontAwesomeIcon icon={faEnvelope} />&nbsp;<a href="mailto:hasu_m.s@icloud.com">hasu_m.s@icloud.com</a></p>
+                <p className={styles.email}><FontAwesomeIcon icon={faGithub} />&nbsp;<a href="https://github.com/hasu-non-sucre">https://github.com/hasu-non-sucre</a></p>
               </div>
             </div>
 
