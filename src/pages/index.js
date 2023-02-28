@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
                 <p className={styles.profileName}>Muto Sota</p>
                 <p className={styles.email}><FontAwesomeIcon icon={faEnvelope} />&nbsp;<a href="mailto:hasu_m.s@icloud.com">hasu_m.s@icloud.com</a></p>
-                <p className={styles.email}><FontAwesomeIcon icon={faGithub} />&nbsp;<a href="https://github.com/hasu-non-sucre" target="_blank">https://github.com/hasu-non-sucre</a></p>
+                <p className={styles.email}><FontAwesomeIcon icon={faGithub} />&nbsp;<a href="https://github.com/hasu-non-sucre" target="_blank" rel="noopener noreferrer">https://github.com/hasu-non-sucre</a></p>
               </div>
             </div>
 
