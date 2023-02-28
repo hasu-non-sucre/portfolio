@@ -14,7 +14,7 @@ export default function About({ isActive, handleActive }) {
   return (
     <div className={classNames(styles.work03, { [styles.isActive]: isActive })}>
       <div className={styles.close} onClick={close}></div>
-      <p className={styles.repo}>github: <a href="https://github.com/FunLocks/team2008" target="_blank">https://github.com/FunLocks/team2008</a></p>
+      <p className={styles.repo}>github: <a href="https://github.com/hasu-non-sucre/next-react-todo" target="_blank">https://github.com/hasu-non-sucre/next-react-todo</a></p>
 
       <div className={styles.contents}>
         <div className={styles.img}>
